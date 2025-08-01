@@ -1,0 +1,5 @@
+Prompt 1: Create a Spring Boot application with a MySQL database to manage products (fields: id, name, type, price) using Spring Data JPA. Add REST endpoints to create, get all, get by ID, update, and delete products.
+Prompt 2: Add JWT authentication to the above Spring Boot product API. Include endpoints for user registration and login. Passwords should be securely hashed using BCrypt. Protect all /api/products/** endpoints so they require a valid JWT token in the Authorization header. No roles or permissions needed.
+
+Prompt 1: Generate Angular standalone project with login and home components. Login page uses template form to post to /api/auth/login, stores token in localStorage, and redirects to /home. Home page shows 2 card buttons (Add Product, View/Edit Product). Set up routing accordingly.
+Prompt 2: Now create:add component: form to submit product data (POST /api/products/add)view-edit component: table to list all/search by ID with Edit buttonsedit component: prefill by ID, update/delete productProductService with manual JWT header All APIs follow /api/products/..., use standalone components and clean layout."
